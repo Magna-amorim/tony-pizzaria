@@ -5,6 +5,9 @@
     --cor-preto: #000;
     --cor-sombra: #0008;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: var(--cor-secundaria);
