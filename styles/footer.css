@@ -1,0 +1,120 @@
+    footer {
+        background-color: var(--cor-primaria);
+        display: flex;
+        flex-direction: column;
+        padding-top: 130px;
+    }
+
+    .contatos-container {
+        display: flex;
+        padding-bottom: 42px;
+    }
+
+    .contato-logo {
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 8px;
+        gap: 12px;
+    }
+
+    .contato-logo p {
+        font-size: 1.5rem;
+        color: #fff;
+        width: 82px;
+        font-family: pattaya, sans-serif;
+    }
+
+    .contato-links {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .contato-links p {
+        width: 80px;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    .contato-links ul {
+        width: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        color: #fff;
+        font-weight: 200;
+    }
+
+    .contatos {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .contatos>p {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    .contatos ul {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .contatos li {
+        display: flex;
+        gap: 12px;
+    }
+
+    .contatos i {
+        color: #fff;
+    }
+
+    .contatos li p {
+        color: #fff;
+        font-weight: 200;
+    }
+
+    .contato-sociais {
+        flex-grow: 1;
+    }
+
+    .contato-sociais ul {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .contato-sociais a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        border: 3px solid #fff;
+        border-radius: 50%;
+    }
+
+    .contato-sociais i{
+    color: #fff;
+    font-size: 20px;
+}
+    .autor-container {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+        color: #fff8;
+        font-style: italic;
+        font-weight: 200;
+        border-top: 1px solid #fff8;
+    }
