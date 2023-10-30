@@ -23,6 +23,7 @@
 }
 
 .conteudo-container h2{
+    
     width: 558px;
     font-size: 4rem;
     font-weight: 400;
@@ -45,3 +46,30 @@ width: 960px;
     padding-left: 80px;
     padding-right: 80px;
 }
+
+@media (max-width: 768px){
+    .home{
+        background-image: url(../img/fundo\ tablet.png);
+        background-position: top left;
+    }
+    .conteudo-container .texto{
+        width: 308px;
+    }
+
+    .conteudo-container h2{
+        font-size: 3rem;
+    }
+
+    .produto:nth-child(3){
+        display: none;
+    }
+    .produto:nth-child(4){
+        display: none;
+    }
+
+    }
+
+
+
+
+

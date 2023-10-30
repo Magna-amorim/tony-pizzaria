@@ -8,8 +8,8 @@ header{
     display: flex;
     justify-content: space-between;
 }
-
 header .logo-container{
+
     width: 150px;
     display: flex;
     gap: 12px;
@@ -17,6 +17,13 @@ header .logo-container{
     font-family: 'Pattaya', sans-serif;
     font-size: 24px;
     color: var(--cor-primaria);
+}
+
+.menuhamburger{
+    display: none;
+    color: var(--cor-secundaria);
+    font-size: 32px;
+    
 }
 
 header .menu ul{
@@ -58,4 +65,12 @@ header .botao{
     gap: 8px;
     color: var(--cor-primaria);
     font-weight: 600;
+}
+/* tablet */
+@media (max-width: 768px){
+
+    header .menu {
+        display: none;
+    }
+
 }
