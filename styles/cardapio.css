@@ -88,3 +88,15 @@
 .cardapio-bebidas .info-texto{
     font-size: .8rem;
 }
+/* TABLET */
+@media (max-width: 768px){
+    .bebida:nth-child(1){
+        display: none;
+    }
+    .bebida:nth-child(2){
+        display: none;
+    }
+    .bebida:nth-child(3){
+        display: none;
+    }
+}
