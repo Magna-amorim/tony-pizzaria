@@ -18,10 +18,13 @@ header .logo-container{
     font-size: 24px;
     color: var(--cor-primaria);
 }
+.container-menu{
+    display: flex;
 
+}
 .menuhamburger{
     display: none;
-    color: var(--cor-secundaria);
+    color: var(--cor-branco);
     font-size: 32px;
     
 }
@@ -71,6 +74,13 @@ header .botao{
 
     header .menu {
         display: none;
+    }
+    .container-menu{
+        display: flex;
+        align-items: center;
+    }
+    .menuhamburger{
+        display: flex;
     }
 
 }
