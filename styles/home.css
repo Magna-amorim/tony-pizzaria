@@ -60,16 +60,17 @@
     }
 
     .conteudo-container .texto {
-        width: 308px;
+        width: 200px;
     }
 
     .conteudo-container h2 {
         font-size: 3rem;
     }
     .conteudo-container{
+        margin-top: 160px;
         justify-content: center;
         align-items: center;
-        gap: 2px;
+        
     }
     .conteudo-container .pizzamaior{
     display: none;
@@ -79,6 +80,9 @@
         display: flex;
 
     }
+    .destaque-container{
+        margin-bottom: 50px;
+    }
 
     .produto:nth-child(3) {
         display: none;
@@ -87,4 +91,5 @@
     .produto:nth-child(4) {
         display: none;
     }
+
 }
