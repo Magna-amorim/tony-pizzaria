@@ -93,7 +93,8 @@
         flex-direction: column;
         gap: 12px;
     }
-    .contato-sociais a{
+
+    .contato-sociais a {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -103,10 +104,11 @@
         border-radius: 50%;
     }
 
-    .contato-sociais i{
-    color: #fff;
-    font-size: 20px;
-}
+    .contato-sociais i {
+        color: #fff;
+        font-size: 20px;
+    }
+
     .autor-container {
         height: 70px;
         display: flex;
@@ -118,8 +120,45 @@
         font-weight: 200;
         border-top: 1px solid #fff8;
     }
-@media (max-width: 768px) {
-    footer{
-        padding-top: 50px;
+
+    @media (max-width: 768px) {
+        footer {
+            padding-top: 50px;
+        }
     }
+
+    @media (max-width: 480px) {
+
+        .contato-logo {
+            display: none;
+        }
+
+        .contatos-container{
+            flex-direction: column;
+            gap: 40px;
+        }
+        .contatos-container{
+
+            height: 300px;
+            width: 100%; 
+            display: grid;
+            grid-template-areas:
+                "contatos  "
+                "contato-links contato-sociais ";
+            place-items: center;
+            padding: 32px;
+            gap: 0px 32px;
+        
+    }
+    .contatos{
+        grid-area: contatos;
+    }
+    .contato-links{
+        grid-area: links;
+    }
+    .contato-sociais{
+        grid-area: sociais;
+    }
+
 }
+

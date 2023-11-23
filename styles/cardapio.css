@@ -100,3 +100,31 @@
         display: none;
     }
 }
+
+/* MOBILE */
+@media (max-width:480px){
+
+    .cardapio{
+        height: 100%;
+    }
+    .cardapio-titulo h3{
+        font-size: 1.5rem;
+    }
+    .header-area p{
+        font-size: 1.0rem;
+
+    }
+
+    .cardapio-favoritas{
+        display: none;
+    }
+
+    .bebida:nth-child(4){
+        display: none;
+    }
+   
+    .produtos-container{
+        display: flex;
+        flex-direction: column;
+    }
+}

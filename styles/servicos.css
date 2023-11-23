@@ -7,6 +7,7 @@
 
 }
 .servicos-titulo{
+   
     display: flex;
     align-items: center;
     height: 65px;
@@ -52,10 +53,10 @@
 /* TABLET */
 @media (max-width: 768px){
 
-.servicos-conteudo{
-    flex-wrap: wrap;
-
-}
+    /* .servicos-conteudo{
+        display: flex;
+        flex-direction: column;
+    } */
 
 .servico{
     height: 520px;
@@ -70,11 +71,40 @@
     margin-top: 50px;
     gap: 20px;
     height: 320px;
-    width: 660px;
+    width: 660px;   
+}
+}
+/* MOBILE */
+@media (max-width:480px){
+
+   
+    .servicos-conteudo{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .servicos-titulo h3{
+        font-size: 1.5rem;
+    }
+    .servicos-conteudo h4{
+        font-size: 1.5rem;
+
+    }
+    .fast-food{
+        height: 420px;
+        width: 288px;
+        gap: 8px;
+    }
+    .drive-thru{
+        gap: 8px;
+        height: 420px;
+        width: 288px;
+    }
+    .deliveries{
+        gap: 8px;
+        height: 420px;
+        width: 288px;
+    }
     
 }
-
-
-
-
-}
+ 

@@ -34,9 +34,14 @@
     display: flex;
     justify-content: flex-start;
     width: 960px;
+    
 }
 
 .conteudo-container .pizzamenor{
+    display: none;
+}
+
+.conteudo-container .pizzametade{
     display: none;
 }
 
@@ -93,3 +98,31 @@
     }
 
 }
+/* MOBILE */
+@media (max-width:480px){
+
+    body{
+        
+    }
+    .conteudo-container .pizzamenor {
+        display: none;
+    }
+
+    .conteudo-container .pizzametade{
+        display: flex;
+    }
+    .conteudo-container .texto {
+        width: 100px;
+        height: 260px;
+    }
+
+    .conteudo-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .destaque-container{
+        display: none;
+    }
+
+}
+

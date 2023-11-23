@@ -20,13 +20,16 @@ header .logo-container{
 }
 .container-menu{
     display: flex;
-
 }
+
 .menuhamburger{
     display: none;
     color: var(--cor-branco);
-    font-size: 32px;
-    
+    font-size: 32px;  
+}
+
+.iconelogin{
+    display: none;
 }
 
 header .menu ul{
@@ -84,3 +87,22 @@ header .botao{
     }
 
 }
+/* MOBILE */
+@media (max-width:480px){
+
+    header .logo-container{
+        font-size: 18px; 
+
+    }
+
+    header .botao-container{
+        display: none;
+    }
+
+    .iconelogin{
+        display: flex;
+
+    }
+   
+
+    }
