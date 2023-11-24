@@ -133,32 +133,36 @@
             display: none;
         }
 
-        .contatos-container{
-            flex-direction: column;
-            gap: 40px;
-        }
-        .contatos-container{
+        .contatos-container {
 
-            height: 300px;
-            width: 100%; 
             display: grid;
-            grid-template-areas:
-                "contatos  "
-                "contato-links contato-sociais ";
+            grid-column-end: span 3;
+            grid-template:
+                "contatos contatos contatos" 100px
+                "links sociais b" 140px 
+                "links sociais c" 140px / 5fr 7fr 1fr;
             place-items: center;
-            padding: 32px;
-            gap: 0px 32px;
-        
-    }
-    .contatos{
-        grid-area: contatos;
-    }
-    .contato-links{
-        grid-area: links;
-    }
-    .contato-sociais{
-        grid-area: sociais;
-    }
+            padding: 16px;
+            gap: 16px;
 
-}
+        }
 
+        .contatos {
+            grid-area: contatos;
+        }
+
+        .contato-links {
+            grid-area: links;
+        }
+
+        .contato-sociais {
+            grid-area: sociais;
+          
+        }
+    
+        .autor-container{
+
+            padding: 8px 12px 8px 12px;
+        }
+
+    }

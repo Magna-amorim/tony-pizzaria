@@ -100,24 +100,32 @@
 }
 /* MOBILE */
 @media (max-width:480px){
-
-    body{
-        
-    }
+ 
+   .home{
+    background-color: brown;
+    top: 20px;
+    left: 16px;
+    right: 16px;
+    
+   }
     .conteudo-container .pizzamenor {
         display: none;
     }
 
     .conteudo-container .pizzametade{
         display: flex;
+        right: 100%;
     }
     .conteudo-container .texto {
-        width: 100px;
-        height: 260px;
+       
+        background-color: blue;
+        width: 111px;
+        height: 300px;
+     
     }
 
     .conteudo-container h2 {
-        font-size: 1.5rem;
+        font-size: 2.0rem;
     }
 
     .destaque-container{
