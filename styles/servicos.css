@@ -7,7 +7,7 @@
 
 }
 .servicos-titulo{
-   
+
     display: flex;
     align-items: center;
     height: 65px;
@@ -75,12 +75,24 @@
 }
 }
 /* MOBILE */
-@media (max-width:480px){
+@media (max-width: 480px){
 
-   
+    .servicos{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 24px 32px 24px 32px;
+    }
+
+    
+
     .servicos-conteudo{
         display: flex;
         flex-direction: column;
+        gap: 16px;
+    }
+    .servicos-titulo{
+        width: 100%;
         gap: 16px;
     }
     .servicos-titulo h3{
@@ -107,4 +119,4 @@
     }
     
 }
- 
+

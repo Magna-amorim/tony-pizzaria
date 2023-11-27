@@ -100,14 +100,18 @@
 }
 /* MOBILE */
 @media (max-width:480px){
- 
-   .home{
-    background-color: brown;
-    top: 20px;
+
+    .conteudo-container{
+        gap: 20px;
+        padding: 0;
+    }
+
+    .home{
+        padding: 24px 32px 24px 32px;
+    /* top: 20px;
     left: 16px;
-    right: 16px;
-    
-   }
+    right: 16px; */
+    }
     .conteudo-container .pizzamenor {
         display: none;
     }
@@ -116,16 +120,14 @@
         display: flex;
         right: 100%;
     }
-    .conteudo-container .texto {
-       
-        background-color: blue;
+    .conteudo-container .texto {  
         width: 111px;
         height: 300px;
-     
     }
 
     .conteudo-container h2 {
         font-size: 2.0rem;
+
     }
 
     .destaque-container{
