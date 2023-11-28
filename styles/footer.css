@@ -139,7 +139,8 @@
             grid-column-end: span 3;
             grid-template:
                 "contatos contatos contatos" 100px
-                "links sociais b" 140px "links sociais c" 140px / 5fr 7fr 1fr;
+                "links sociais b" 140px 
+                "links sociais c" 140px / 5fr 7fr 1fr;
             place-items: center;
             padding: 6px 32px 24px 32px;
             gap: 16px;

@@ -84,8 +84,6 @@
         padding: 24px 32px 24px 32px;
     }
 
-    
-
     .servicos-conteudo{
         display: flex;
         flex-direction: column;
@@ -103,19 +101,25 @@
 
     }
     .fast-food{
-        height: 420px;
-        width: 288px;
+        height: 400px;
         gap: 8px;
+        height: 380px;
+        width: 300px;
+        padding: 12px 8px 12px 8px;
     }
     .drive-thru{
         gap: 8px;
-        height: 420px;
-        width: 288px;
+        gap: 8px;
+        height: 380px;
+        width: 300px;
+        padding: 12px 8px 12px 8px;
     }
     .deliveries{
+        margin-top: 0px;
         gap: 8px;
-        height: 420px;
-        width: 288px;
+        height: 380px;
+        width: 300px;
+        padding: 12px 8px 12px 8px;
     }
     
 }
